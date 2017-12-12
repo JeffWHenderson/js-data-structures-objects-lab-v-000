@@ -16,5 +16,5 @@ function deleteFromDriverByKey(driver, key) {
   const newObj = {...driver}
   newObj.key.delete
 
-  return driver
+  return newObj
 }
